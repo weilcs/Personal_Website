@@ -104,7 +104,16 @@ $(document).ready(function () {
     });
 
     //animatedModal
+    var selectedProfileId
+    $('.portfolio_item').click((e) => {
+        e.preventDefault();
+        selectedProfileId = e.currentTarget.id
+        $('.profileModal').hide()
+        $(`.profileModal-${selectedProfileId}`).show()
+    })
+    
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    
 
     // Contact Form 	
 
