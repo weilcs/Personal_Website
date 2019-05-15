@@ -111,11 +111,11 @@ $(document).ready(function () {
         $('.profileModal').hide()
         $(`.profileModal-${selectedProfileId}`).show()
     })
-    
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-    
 
-    // Contact Form 	
+    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09,#demo10").animatedModal();
+
+
+    // Contact Form
 
     // validate contact form
     $(function () {
